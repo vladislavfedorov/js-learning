@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Objects</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+  
+  <script>
+
+let user = new Object();
+/* or
+   let user = {};
+*/
+
+user = {
+  name: "Vasiliy",
+  age: 45,
+  profession: "doctor"
+}
+
+// alert ( user.profession );
+
+user.isAdmin = true; // add
+
+delete user.age;
+
+user["second name"] = "Petrov"; // add with double name
+
+// alert ( user["second name"] );
+
+delete user["second name"];
+
+
+
+  </script>
+  </body>
+</html>
