@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Object methods, this</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+  
+  <script>
+/*
+let user = {
+	name: "Polina",
+	age: 21
+}
+
+user.sayHi = function() {
+	alert("Hello!");
+}
+
+// user.sayHi();
+
+user = {
+	sayHi() {
+		alert("Hi!");
+	}
+}; 
+
+
+let man = {
+	profession: "fireman",
+	hobby: "swimming",
+	age: 39,
+	
+	sayHobby() {
+		alert(this.hobby);
+	}
+};
+
+// man.sayHobby();
+
+let newUser = { name: "Alex" };
+let admin = { name: "Administrator" };
+
+function sayHi() {
+  alert( this.name );
+}
+
+newUser.fun = sayHi;
+admin.fun = sayHi;
+
+// newUser.fun();
+// admin.fun();
+*/
+
+function sayThis() {
+	alert ( this );
+}
+
+sayThis();
+
+  </script>
+  </body>
+</html>
