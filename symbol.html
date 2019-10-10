@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Symbol</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+  
+  <script>
+
+let id = Symbol("id");
+let id2 = Symbol("id");
+
+// alert(id == id2);
+// alert(id);
+// alert(id.toString());
+// alert(id.description);
+
+let user = {
+	name: "Peter"
+}
+
+let usersID = Symbol("usersID");
+user[usersID] = 1;
+
+// alert( user[usersID] );
+
+  </script>
+  </body>
+</html>
