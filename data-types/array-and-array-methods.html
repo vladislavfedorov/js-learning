@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Array. Array methods</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+  
+  <script>
+
+// let arr = new Array();
+// let arr = [];
+
+let professions = ["programmer", "administrator", "driver", "doctor"];
+// alert ( professions[2] ); // driver
+professions[2] = "butcher";
+// alert ( professions[2] ); // butcher
+// alert ( professions[4] ); // undefined
+professions[4] = "engineer";
+// alert ( professions[4] ); // engineer
+// alert ( professions.length ); // 5
+// alert ( professions ); // programmer,administrator,butcher,doctor,engineer
+
+// professions.push("economist", "CEO");
+// alert ( professions ); // programmer,administrator,butcher,doctor,engineer,economist,CEO
+// alert ( professions.shift() ); // programmer
+// alert ( professions ); // administrator,butcher,doctor,engineer,economist,CEO
+
+// push/pop = fast, shift/unshift = slow.
+
+
+/* for (let i = 0; i < professions.length; i++) {
+	alert(professions[i]);
+} */
+
+/* for (let oneFrom of professions) {
+	alert(oneFrom);
+} */
+
+/* let matrix = [
+	[5, 8, 9],
+	[1, 6, 6],
+	[9, 1, 5]
+]
+
+alert (  matrix[2][0]); // 9
+*/
+
+// METHODS
+
+// professions.splice(0, 4, "She is:");
+// alert(professions); // She is: ,engineer
+
+// alert ( professions.slice(2, 4) ); // butcher,doctor
+  </script>
+  </body>
+</html>
