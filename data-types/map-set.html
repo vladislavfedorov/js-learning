@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Map and Set</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+  
+  <script>
+
+/*
+let map = new Map();
+
+map.set("stringexample", "STRING");
+map.set(666, "number of the beast");
+map.set(false, "are u happy");
+map.set(true, "i'm happy");
+
+alert( map.get(false) ); // are u happy
+alert( map.size ); // 4 
+*/
+
+// OBJECTS AS KEY
+/*
+let girl = {
+	name: "Sonya"
+}
+
+let visitCount = new Map();
+	visitCount.set(girl, 1);
+	alert( visitCount.get(girl) );
+
+
+let office = new Map([
+	["CEO", 1],
+	["Admin", 1],
+	["Economist", 2],
+	["Engineer", 5]
+]);
+
+for ( let specialists of office.keys() ){
+	alert(specialists); // CEO, Admin, Economist, Engineer
+}
+
+for ( let quantity of office.values() ){
+	alert(quantity); // 1, 1, 2, 5
+}
+
+for ( let entry of office ){
+	alert(entry); // like .entries() --- key + value
+}
+*/
+
+// SET
+/*
+let setcollection = new Set();
+
+let mary = { name: "Mary" };
+let asya = { name: "Asya" };
+let inga = { name: "Inga" };
+
+// alert( setcollection.size ); // 0
+
+setcollection.add(mary);
+setcollection.add(asya);
+setcollection.add(mary);
+setcollection.add(mary);
+setcollection.add(mary);
+setcollection.add(mary);
+
+alert( setcollection.size ); // 2 (Mary + Asya)
+
+for( let value of setcollection) alert(value); // [object Object] x 2
+
+*/
+  </script>
+  </body>
+</html>
